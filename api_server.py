@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-load_dotenv()  # Must be before importing tools/main
+load_dotenv()  
 
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
